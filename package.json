@@ -1,0 +1,29 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Searchable website to display forecast of various cities",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NLCHAN168/weather-app.git"
+  },
+  "author": "Nicholas C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NLCHAN168/weather-app/issues"
+  },
+  "homepage": "https://github.com/NLCHAN168/weather-app#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
